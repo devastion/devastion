@@ -1,0 +1,42 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[a4paper,top=19mm,bottom=19mm,left=19mm,right=19mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{carlito}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{microtype}
+\DisableLigatures[f]{encoding=*,family=*}
+\usepackage{parskip}
+\definecolor{accent}{HTML}{243B53}
+\definecolor{textgray}{HTML}{4A5568}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=black,
+  linkcolor=black,
+  pdftitle={$name$ CV},
+  pdfauthor={$name$},
+  pdfsubject={$subtitle$}
+}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=1.25em,itemsep=2pt,topsep=3pt,parsep=0pt,partopsep=0pt}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{\MakeUppercase}[\vspace{2pt}\titlerule]
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+\titlespacing*{\subsection}{0pt}{6pt}{2pt}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\begin{document}
+\begin{center}
+{\fontsize{18}{21}\selectfont\bfseries $name$}\par
+\vspace{2pt}{\normalsize\color{textgray}$subtitle$}\par
+\vspace{4pt}\fontsize{10.5}{13}\selectfont
+\href{mailto:$email$}{$email$} \textperiodcentered\ $phone$ \textperiodcentered\ \href{https://linkedin.com/in/$linkedin$}{linkedin.com/in/$linkedin$}
+\end{center}
+$body$
+\end{document}
