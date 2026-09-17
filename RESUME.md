@@ -1,9 +1,11 @@
 ---
 name: DIMITAR BANEV
 subtitle: Full-Stack Developer
+location: Sofia, Bulgaria (Open to Remote)
 email: dimitar@banevdimitar.com
-phone: "+359 892237336"
+phone: "+359 89 223 7336"
 linkedin: banevdimitar
+keywords: "TypeScript, JavaScript, React, Redux, Vue, Nuxt, HTML, CSS, SCSS, TailwindCSS, Vuetify, Node.js, Laravel, PHP, Python, FastAPI, REST, gRPC, Protobuf, service decomposition, legacy modernization, SQL query optimization, API design, PostgreSQL, MongoDB, Redis, caching, AWS, ECS, EC2, Docker, GitLab CI, GitHub Actions, Git, Vue Test Utils, Storybook, component testing, code review"
 ---
 
 ## SUMMARY
@@ -40,11 +42,11 @@ Full-stack engineer with 4+ years of experience building and modernizing product
 *May 2022 – Aug 2024*
 
 - Expanded from frontend to full-stack ownership on the OddsPortal platform, delivering backend functionality in Laravel/PHP alongside React/Redux and Node.js services using gRPC/Protobuf
-- Built the **betslip feature end-to-end**, developing both the frontend experience and supporting Laravel/PHP backend functionality
-- Designed and implemented AWS ECS infrastructure and GitLab CI pipelines to onboard **two acquired products** onto the platform, including automated linting checks as part of the deployment workflow
+- Delivered the **betslip feature end-to-end**, developing both the frontend experience and supporting Laravel/PHP backend functionality
+- Architected AWS ECS infrastructure and GitLab CI pipelines to onboard **two acquired products** onto the platform, including automated linting checks as part of the deployment workflow
 - Resolved a critical production incident caused by subquery-heavy homepage queries that overloaded the backend, then redesigned the data-loading strategy around chunked infinite scrolling, cutting external API requests by **~80%** and preventing a full outage
-- Designed a reusable, caching-enabled API layer adopted across multiple internal products
-- Built reusable and accessible UI component systems across React and Vue, supported by component-level testing with Vue Test Utils and Storybook
+- Engineered a reusable, caching-enabled API layer adopted across multiple internal products
+- Developed reusable and accessible UI component systems across React and Vue, supported by component-level testing with Vue Test Utils and Storybook
 
 ## EDUCATION
 
@@ -54,10 +56,8 @@ Full-stack engineer with 4+ years of experience building and modernizing product
 **B.S. Informatics** — New Bulgarian University  
 *2019 – 2023*
 
-## CERTIFICATIONS
+## ADDITIONAL
 
-**AWS Certified Cloud Practitioner**
+**Certifications:** AWS Certified Cloud Practitioner
 
-## LANGUAGES
-
-Bulgarian (native) · English (C1)
+**Languages:** Bulgarian (native) · English (C1)
